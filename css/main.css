@@ -60,7 +60,7 @@ html{
 }
 
 .banner{
-    min-height: 75vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column; 
     justify-content: center; 
@@ -119,6 +119,12 @@ html{
 
 .footer {
     text-align: center; 
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    width: 100%;
 }
 
 .footer .container {
